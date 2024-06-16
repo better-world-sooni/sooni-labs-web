@@ -3,9 +3,6 @@ export const urls = {
     team: {
         index: '/team',
     },
-    soonilabs: {
-        index: '/soonilabs',
-    },
     portfolio: {
         index: '/portfolio',
     },

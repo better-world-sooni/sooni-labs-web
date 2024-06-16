@@ -3,11 +3,11 @@ import Head from "next/head";
 import React from "react";
 import Helmet from "react-helmet";
 
-const BasicHeadWrapper = ({ children, title = null }) => {
+const BasicHeadWrapper = ({ children }) => {
 	return (
 		<>
 			<Head>
-				<title>{title || "세한의 개발 포트폴리오"}</title>
+				<title>Sooni Labs</title>
 				<link rel="icon" href="favicon.ico" />
 			</Head>
 			<body>{children}</body>
